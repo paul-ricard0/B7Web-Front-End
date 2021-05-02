@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    background-color: #ff8367;
+}
+.top{
+    background-color: #181515;
+    height: 75;
+    display: flex;
+    justify-content: center;
+}
+.int{
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+}
+.top_menu{
+    color: white;
+    display: flex;  
+    display: flex;
+    justify-content: center;
+}
+.top_menu a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    line-height: 75px;
+}
+.top_menu a:hover{
+    color: #d89000;
+}
+.banner {
+    display: flex;
+    justify-content: center;    
+    color: white;
+}
+.banner .int{
+    flex-direction: column;
+    align-items: center;
+    background-color: #e85231;
+    border: 5px solid #181515;
+    border-top: none;
+}
+.name{
+    padding: 22px;
+    font-size: 30px;
+}
+.nickname{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.old{
+    padding: 20px;
+    font-size: 20px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.intro p{
+    margin-bottom: 0px;
+    margin-left: 90PX;
+}
+k {
+    color: yellow;
+}
+.title{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 28px;
+}
+.conteudo{
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.conteudo img{
+    border: 2px solid white;
+    margin: 15px;
+}
+#timeline ul{
+    list-style: none;
+    width: 100%;
+}
+#timeline li{
+    background-color: white;
+    color: red;
+    box-shadow: 1px 1px 20px  #181515;
+    width: 80%;
+    text-align: left;
+    font-size: 18px;
+    margin: 10px auto;
+    padding: 3px;
+    padding-left: 7px;
+}
+.timeline_data{
+    background-color: yellow;
+    color: #181515;
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+#more_info img{
+    width: 45px;
+    height: 45px;
+    border: none;
+    align-items: center;
+}
+#more_info .conteudo{
+    justify-content: center;
+}
+#more_info{
+    margin-bottom: 0px;
+}
+footer{
+    background-color: #0D160B;
+    padding: 10px;
+    text-align: center;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-right: 15px;
+    align-items: center;
+}
+footer p, p a{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: #d89000;
+}

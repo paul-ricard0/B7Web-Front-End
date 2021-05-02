@@ -1,0 +1,14 @@
+
+div{
+    background-color: blue;
+}
+
+a {
+    color: white;
+    padding: 10px;
+}
+
+a:hover{
+    color: blue;
+    background-color: white;
+}

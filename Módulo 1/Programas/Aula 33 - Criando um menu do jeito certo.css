@@ -1,0 +1,19 @@
+.tabela{
+    background-color: blue;
+    padding: 0px;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+a:hover{
+    background-color: white;
+    color: blue;
+}
+
+li{
+    list-style: none;
+}

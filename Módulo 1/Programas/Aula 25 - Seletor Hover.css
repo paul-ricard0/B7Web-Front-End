@@ -1,0 +1,16 @@
+a{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+div:hover span{
+    color: green;
+}

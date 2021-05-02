@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+.exemplo {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    color: red;
+    text-shadow:  5px 5px 2px #888888;
+}
+/* 
+BOX SHADOW
+
+.exemplo {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    background-color: red;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+*/

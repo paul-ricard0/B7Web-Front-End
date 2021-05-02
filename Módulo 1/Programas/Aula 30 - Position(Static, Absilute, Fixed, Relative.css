@@ -1,0 +1,32 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: red;
+}
+
+.quadrado3{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.quadrado4{
+    position: static;
+}
+
+.quadrado6{
+    position: absolute;
+}
+
+.quadrado7{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.quadrado8{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

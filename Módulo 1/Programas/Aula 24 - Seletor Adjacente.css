@@ -1,0 +1,5 @@
+.header + span {
+    background-color: blue;
+    color: blueviolet;
+    font-size: 30px;
+}

@@ -1,0 +1,15 @@
+.header{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    
+}
+.header + div{
+    background-color: red;
+}
+div > ul{
+    background-color: red;
+}
+strong{
+    color: greenyellow;
+}

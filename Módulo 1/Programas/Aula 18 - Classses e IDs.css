@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+
+img{
+    width: 300px;
+}
+#titulo{
+    color: red;
+    background-color: black;
+}
+.aimg{
+    width: 500px;
+}
+.gimg{
+    width: 150;
+}

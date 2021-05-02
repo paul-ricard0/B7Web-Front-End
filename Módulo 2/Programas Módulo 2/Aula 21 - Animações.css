@@ -1,0 +1,20 @@
+@keyframes  teste{
+    0% {background-color: red;top:0;left:0;}
+    25% {background-color: yellow;top:0;left:200;}
+    50% {background-color: green;top:200;left:200;}
+    75% {background-color: blue;top:200;left:0;}
+    100% {background-color: chocolate;top:0;left:0;}
+}
+
+body{
+    margin: 0px;
+}
+.exemplo {
+    width: 500px;
+    height: 200px;
+    background-color: yellow;
+    animation-name: teste;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}

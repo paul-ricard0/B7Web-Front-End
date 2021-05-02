@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+.texto{
+    width: 700px;
+    height: 500px;
+    background-color: violet;
+    color: red;
+    font-size: 20px;
+    font-family: helvetica, verdana;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+
+    margin:auto; 
+    margin-top: 20PX;
+    padding-top: 20px;
+}

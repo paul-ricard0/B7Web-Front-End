@@ -1,0 +1,377 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> <!-- para não atrapalhar os acentos -->
+        <meta name="viewport" content="width=device=width,user-scalable=0"> <!--  deixa o site responsivo de acordo com a largura que seja aberto -->
+
+        <title>Site FlexBox </title>
+
+        <link rel="stylesheet" type="text/css" href="tools/css/style.css">
+
+        <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == "flex"){
+                    document.querySelector(".menu nav ul").style.display = "none";
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+                });
+            };
+        </script>
+    </head>
+    <body>
+        
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img src="tools/imagens/logo.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <div class="menuMobile">
+                            <div class="mm_mobile"></div>
+                            <div class="mm_mobile"></div>
+                            <div class="mm_mobile"></div>
+                        </div>
+                        <ul>
+                            <li class="active"><a href="">HOME</a></li>
+                            <li><a href="">BLOG</a></li>
+                            <li><a href="">PAGES</a></li>
+                            <li><a href="">DEPARTMENTS</a></li>
+                            <li><a href="">TIMETABLE</a></li>
+                            <li><a href="">GALLERY</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section id="banner">
+            <div class="container column">
+                <div class="banner_top">
+                    <h1>Top notch experience</h1>
+                    <h2>Medicenter is a responsive templae perfect for all screen sizes</h2>
+                </div>
+
+                <div class="banner_bot">
+                    <div class="banner1">
+                        <div class="banner_title">Emergency Case</div>
+                        <div class="banner_description"></div>
+                        <div class="banner_description">Algum testo foda-se</div>
+                        <a href="">Read more </a>
+                    </div>
+                    <div class="banner2">
+                        <div class="banner_title">Doctors Timetable</div>
+                        <div class="banner_description">Algum testo foda-se</div>
+                        <a href="">Read more </a>
+                    </div>
+                    <div class="banner3">
+                        <div class="banner_title">Opeing Hours</div>
+
+                        <div class="day_hours1">
+                            <div class="day">
+                                Monday-friday
+                            </div>
+                            <div class="hours"> 
+                                8.00-17:00
+                            </div>
+                        </div>
+                        <div class="day_hours2">
+                            <div class="day">
+                                Saturday
+                            </div>
+                            <div class="hours"> 
+                                9.30 - 17.30
+                            </div>
+                        </div>
+                        <div class="day_hours3">
+                            <div class="day">
+                                Sunday
+                            </div>
+                            <div class="hours"> 
+                                9.30 - 15.00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="geral">
+
+            <div class="container">
+
+                <section> 
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest News</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body flex">
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="tools/imagens/dr.jpg" >
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        It is a long established fact that a reader will be distrated 
+                                        by the readable content pd a page when looking at its layout.
+                                        The pont of using lorem Ipsum is that it has a more-or-less
+                                        normal distribution of letter, as opposed to using 'Content
+                                        here, content here', making it look like readable English. 
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="tools/imagens/dr.jpg" >
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        It is a long established fact that a reader will be distrated 
+                                        by the readable content pd a page when looking at its layout.
+                                        The pont of using lorem Ipsum is that it has a more-or-less
+                                        normal distribution of letter, as opposed to using 'Content
+                                        here, content here', making it look like readable English. 
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="tools/imagens/dr.jpg" >
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        It is a long established fact that a reader will be distrated 
+                                        by the readable content pd a page when looking at its layout.
+                                        The pont of using lorem Ipsum is that it has a more-or-less
+                                        normal distribution of letter, as opposed to using 'Content
+                                        here, content here', making it look like readable English. 
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="tools/imagens/dr.jpg" >
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        It is a long established fact that a reader will be distrated 
+                                        by the readable content pd a page when looking at its layout.
+                                        The pont of using lorem Ipsum is that it has a more-or-less
+                                        normal distribution of letter, as opposed to using 'Content
+                                        here, content here', making it look like readable English. 
+                                    </div>
+                                </a>
+                            </article>
+
+                        </div>
+                    </div>
+                </section>
+
+                <aside><!-- aside e section são como DIV, se comporta igualmente, mas facilita para o motores de busca -->
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Deparments</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <a href=""><div class="blue_block"></div></a>
+                            <a href=""><div class="blue_block"></div></a>
+                            <a href=""><div class="blue_block"></div></a>
+                            <a href=""><div class="blue_block"></div></a>
+                            <a href=""><div class="blue_block"></div></a>
+                            <a href=""><div class="blue_block"></div></a>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Make An Appointment</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="text_appoint">
+                                <p>Lorw ipotum dolor at ama! acc adipiocting wit. <br>
+                                Ut volutpat nutrum cros sit amel sollcbudin.</p>
+                            </div>
+
+                            <div class="itens_appoint">
+                                <div class="item_appoint bartop">
+                                    <img src="tools/imagens/phone.png" width="24px" height="24px" alt="">
+                                    phone: <strong>1-800-843-4300</strong>
+                                </div>
+                                <div class="item_appoint">
+                                    <img src="tools/imagens/gmail.png" width="24px" height="24px" alt="">
+                                    By e-mail: <a href="">medicenter@gmail.com</a>
+                                </div>
+                                <div class="item_appoint">
+                                    <img src="tools/imagens/text.png" width="24px" height="24px" alt="">
+                                    Or<a href=""> fill in the form</a> on our contact page
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>  
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="container flexcolumn">
+                <div class="footer_menu">
+                    <div class="mf_1">
+                        <div class="mf_title">
+                            Health Insurance
+                        </div>
+                        <a href="">
+                            Here in medicenter we have individual <img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                        </a>
+                    </div>
+                    <div class="mf_2">
+                        <div class="mf_title">
+                            Medical Recordds
+                        </div>
+                        <a href="">
+                            Here in medicenter we gace individual <img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                        </a>
+                    </div>
+                    <div class="mf_3">
+                        <div class="mf_title">
+                            Online Bill Pay
+                        </div>
+                        <a href="">
+                            Here in medicenter we gace individual <img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_area">
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Medicenter Clinic</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body">
+                                <div class="discription_footer marbottom">
+                                    Muris adipiscing mauris fringilla turpis interdum <br>
+                                    sed pulvinar nisi malesuada individual 
+                                </div>
+                                <div class="discription_footer">Medicenter Clinic</div>
+                                <div class="footer_info">
+                                    <div class="footer_A">
+                                        <div>33 Farlne Street</div>
+                                        <div>kelior east</div>
+                                        <div>VIC 3033, Australia</div>
+                                    </div>
+                                    <div class="footer_B">
+                                        <div>+122 655 655</div>
+                                        <div>+123 755 755</div>
+                                        <div class="e-mail"><a href="">medicenter@gmail.com</a></div>
+                                    </div>
+                                </div>
+                                <div class="icons">
+                                    <div> <a href=""><img src="tools/imagens/facebook.jpg" alt=""></a></div>
+                                    <div> <a href=""><img src="tools/imagens/twt.jpg" alt=""></a></div>
+                                    <div> <a href=""><img src="tools/imagens/calendar.jpg" alt=""></a></div>
+                                    <div> <a href=""><img src="tools/imagens/gmail2.jpg"  alt=""></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Posts</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body">
+                                <div class="main_pharase">
+                                    <a href=""><img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                                    Mauris adipiscing mauris frinfila turpis interdum <br>
+                                    pulvinar nisi malesuada</a>  
+                                    <div class="time_post">6 years ago</div> 
+                                </div>
+                                <div class="main_pharase">
+                                    <a href=""><img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                                    Lorem ipsum dolor ssit amat velum</a>  
+                                    <div class="time_post">6 years ago</div> 
+                                </div>
+                                <div class="main_pharase">
+                                    <a href=""><img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                                    Mauris adipiscing mauris frinfila turpis interdum <br>
+                                    pulvinar nisi malesuada</a>  
+                                    <div class="time_post">6 years ago</div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">latest tweets</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body">
+                                <div class="main_pharase2">
+                                    <img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                                    We've released new version(v1.2) of our #CleanMate <br>
+                                    #cleaning COmpany #Maid #gardening #WordPress <br>
+                                    Theme. Please che...<a href="">t.co/tYVkhmpb30</a>  
+                                    <div class="time_post">4 days ago</div> 
+                                </div>
+                                <div class="main_pharase2">
+                                    <img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                                    we've released new version (v5.1) of our #Timetable <br>
+                                    #Responsive #Shedule #WP Plugin. Please check at <br>
+                                    #CodeCanyon <a href="">t.con/wUTmgd2atO</a>  
+                                    <div class="time_post">6 days ago</div> 
+                                </div>
+                                <div class="main_pharase2">
+                                   <img src="tools/imagens/arrowrigth.png" width="12px" height="12px">
+                                    Mauris adipiscing mauris frinfila turpis interdum <br>
+                                    pulvinar nisi malesuada <a href="">t.con/FwwKmjcDoC</a>  
+                                    <div class="time_post">7 days ago</div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_copy">
+                    Coryrigth - Todos os direitos reservados
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+.top{
+    background-color: #0D160B;
+    height: 75;
+    display: flex;
+    justify-content: center;
+}
+.int{
+    display: flex;
+    justify-content: center;
+    width: 1150px;
+    color: white;
+}
+.top_menu{
+    display: flex;  
+}
+.top_menu a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    line-height: 75px;
+}
+.top_menu a:hover{
+    color: #d89000;
+}
